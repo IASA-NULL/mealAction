@@ -1,4 +1,4 @@
 ---
 title: TEST
 ---
-{{ steps.main.outputs }}
+{{ env.BODY }}
