@@ -1,0 +1,7 @@
+{
+  "name": "mealAction",
+  "version": "1.0.0",
+  "dependencies": {
+    "neis": "^0.5.1"
+  }
+}
