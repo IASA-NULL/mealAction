@@ -9,7 +9,7 @@ school.getMeal(new Date().getFullYear(), new Date().getMonth() + 1).then(mealInf
         return [parseMeal(d.breakfast), parseMeal(d.lunch), parseMeal(d.dinner)]
     }).filter(x => x)
     fs.writeFileSync('./.github/ISSUE_TEMPLATE.md', `---
-title: ${new Date().getFullYear()}_${new Date().getMonth() + 1}
+title: I${new Date().getFullYear()}_${new Date().getMonth() + 1}
 ---
 ${JSON.stringify(res)}`)
 });
